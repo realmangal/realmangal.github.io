@@ -1,0 +1,20 @@
+header {
+Background-color: rgba(0, 0, 0, 0.4);
+height: 80px;
+padding-bottom: 5px;
+
+}
+h1 {
+color: #fff;
+font-family: URW Chancery L, cursive;
+padding-top: 10px;
+font-size: 45px;
+font-style: italic;
+text-shadow: 4px 4px 6px #696969;
+opacity: 1;
+}
+body {
+background: -webkit-radial-gradient(bottom right, black 50%, white);
+}
+select {
+border
