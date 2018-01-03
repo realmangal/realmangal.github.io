@@ -1,3 +1,4 @@
+
 header {
 Background-color: rgba(0, 0, 0, 0.4);
 height: 80px;
@@ -14,7 +15,208 @@ text-shadow: 4px 4px 6px #696969;
 opacity: 1;
 }
 body {
-background: -webkit-radial-gradient(bottom right, black 50%, white);
+	height: 400px;
+	background-color: #000;
+/*background: -webkit-radial-gradient(bottom right, black 50%, white);*/
+/*background-image: url(image2.jpg);*/
 }
-select {
-border
+/*select {
+background-color: #000;
+border: 2px double #777777;
+border-radius: 2px;
+color: #fff;
+height: 30px;
+width: 180px;
+}*/
+article { /*Меню с правого боку*/
+	position: relative;
+	top: -95px;
+	height: 740px;
+	background-color: #2d2d2d;
+	width: 180px;
+	margin-top: 10px;
+	border: 1px solid #2d2d2d;
+	border-radius: 7px;
+	box-shadow: 5px 0 10px #2d2d2d;
+}
+div {
+	width: 900px;
+	height: 700px;
+	position: absolute;
+	right: 100px;
+	top: 135px;
+	background-color: rgba(222,222,222,0.1);
+}
+footer { /*подвал*/
+	height: 70px;
+	width: 1300px;
+	background-color: rgba(45,45,45,0.5);
+	position: relative;
+	top: -150px;
+
+}
+.a1 { /*анимацтия*/
+	height: 100px;
+	width: 100px;
+	border: 10px solid rgba(255,115,0, 0,2);
+	border-radius: 50px;
+	background-color: #FF7300;
+	opacity: 0,8;
+	animation-name: animation;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+}
+@keyframes animation {
+	0%{/*background-color: #DE0D00*/; transform: scale(0.1)}
+	30%{/*background-color: green;*/ position: reletive; top:50px; right:130px;}
+	100%{/*background-color: yellow;*/ position: reletive; top:70px; right: 60px; opacity: 0.0;}
+}
+.a2 { /*Анимация*/
+	height: 100px;
+	width: 100px;
+	border: 10px solid rgba(255,115,0, 0,2);
+	border-radius: 50px;
+	background-color: #FF7300;
+	opacity: 0.0;
+	position: reletive;
+	top: 500px;
+	right: 500px;
+	animation-name: animation1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	
+}
+@keyframes animation1 {
+	0%{/*background-color: #DE0D00*/; transform: scale(0.1); opacity: 0.6;}
+	30%{/*background-color: green;*/ position: reletive; top:450px; right:450px;}
+	100%{/*background-color: yellow;*/ position: reletive; top:350px; right: 600px; opacity: 0.0;}
+}
+.a3 { /*Кучеров с левого боку внизу*/
+	background-image: url(image17.jpg);
+	width: 175px;
+	height: 230px;
+	position: absolute;
+	left: 8px;
+	top:442px;
+	clip: rect(2px 250px 290px 0);
+	box-shadow: 5px 0 15px #2d2d2d;
+	border: 1px solid #2d2d2d;
+	border-radius: 15px;
+}
+div.a4{ /*Картинка по центру*/
+	position: absolute;
+	left: 300px;
+	top: 50px;
+	background-image: url("image19.jpg");
+	width: 700px;
+	height: 420px;
+	
+}
+div.a5 { /*Картинка лимон*/
+	position: relative;
+	left: 1000px;
+	top: -580px;
+	width: 300px;
+	height: 300px;
+	background-image: url("image20.jpg");
+}
+/*Меню*/
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin-top: 150px;
+	padding: 14;
+	
+}
+li {
+	margin-top: 15px;
+	font: 1.3em sant-serif;
+	color: #fff;
+	transition: 0.5s;
+}
+a{ 
+color: #fff;
+}
+ 
+li:hover {
+	padding-left: 10px;
+	text-shadow: 1px 1px 3px #fff;
+}
+img {
+	position: absolute;
+	top: 70px;
+	left: 1200px;
+	width: 50px;
+	height: 50px;
+	transition: 3s;
+}
+img:hover {
+	transform: rotate(360deg);
+}
+.real {
+	position: absolute;
+	top: 200px;
+	left: 360px;
+	width: 400px;
+	height: 100px;
+	color: #fff;
+	font: 4em Courgette;
+	background-color: rgba(255, 255,255,0);
+	transform: rotate(-70deg);
+	transition: 1s;
+}
+.real:hover {
+	transform: rotate(0deg);
+}
+.footers1 {
+	background-color: rgba(45,45,45,0);
+	position: absolute;
+	color: #000;
+	width: 200px;
+	height: 50px;
+	top: 0;
+	left: 350px;
+	font-size;1.em;
+	transform: translateY(10px);
+}
+.footers2 {
+	background-color: rgba(45,45,45,0);
+	position: absolute;
+	color: #000;
+	width: 200px;
+	height: 50px;
+	top: 30px;
+	left: 350px;
+	font-size;1.em;
+	transform: translateY(10px);
+	
+}
+.footers3 {
+	background-color: rgba(45,45,45,0);
+	position: absolute;
+	color: #000;
+	width: 200px;
+	height: 50px;
+	top: 0;
+	left: 850px;
+	font-size;1.em;
+	transform: translateY(10px);
+}
+.footers4 {
+	background-color: rgba(45,45,45,0);
+	position: absolute;
+	color: #000;
+	width: 200px;
+	height: 50px;
+	top: 30px;
+	left: 850px;
+	font-size;1.em;
+	transform: translateY(10px);
+}
+.ssilka:hover {
+	text-shadow: 1px 1px 2px #fff;
+}
