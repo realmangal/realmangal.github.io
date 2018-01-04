@@ -160,12 +160,12 @@ img:hover {
 }
 .real {
 	position: absolute;
-	top: 220px;
+	top: 200px;
 	left: 220px;
 	width: 500px;
 	height: 100px;
 	color: #fff;
-	font: 5.5em Yesteryear;
+	font: 5.5em Cookie;
 	background-color: rgba(255, 255,255,0);
 	transform: rotate(-70deg);
 	transition: 1s;
