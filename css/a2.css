@@ -165,7 +165,12 @@ img:hover {
 	width: 500px;
 	height: 100px;
 	color: #fff;
+<<<<<<< HEAD
 	font: 5.5em Yesteryear;
+=======
+	font: 4em italic Yesteryear;
+	
+>>>>>>> aab8c152d8b3af58f92ddf7b24485a84e2da545d
 	background-color: rgba(255, 255,255,0);
 	transform: rotate(-70deg);
 	transition: 1s;
@@ -221,6 +226,7 @@ img:hover {
 .ssilka:hover  {
 	text-shadow: 1px 1px 2px #fff;
 }
+<<<<<<< HEAD
 
 
 /*.podpunkt {
@@ -292,3 +298,5 @@ img:hover {
 	background-color: #171717;
 	background-image: url(telef16.png);
 	background-size: cover ;
+=======
+>>>>>>> aab8c152d8b3af58f92ddf7b24485a84e2da545d
