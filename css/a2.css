@@ -1,4 +1,3 @@
-
 header {
 Background-color: rgba(0, 0, 0, 0.4);
 height: 80px;
@@ -15,6 +14,7 @@ text-shadow: 4px 4px 6px #696969;
 opacity: 1;
 }
 body {
+<<<<<<< HEAD
 	height: 400px;
 	background-color: #000;
 /*background: -webkit-radial-gradient(bottom right, black 50%, white);*/
@@ -300,3 +300,9 @@ img:hover {
 	background-size: cover ;
 =======
 >>>>>>> aab8c152d8b3af58f92ddf7b24485a84e2da545d
+=======
+background: -webkit-radial-gradient(bottom right, black 50%, white);
+}
+select {
+border
+>>>>>>> parent of 79b4510... ready
