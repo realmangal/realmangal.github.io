@@ -164,7 +164,8 @@ img:hover {
 	width: 400px;
 	height: 100px;
 	color: #fff;
-	font: 4em Another Danger Slanted;
+	font: 4em italic Yesteryear;
+	
 	background-color: rgba(255, 255,255,0);
 	transform: rotate(-70deg);
 	transition: 1s;
