@@ -48,11 +48,11 @@ div {
 	background-color: rgba(222,222,222,0.1);
 }
 footer { /*подвал*/
-	height: 70px;
+	height: 60px;
 	width: 1300px;
 	background-color: rgba(45,45,45,0.5);
 	position: relative;
-	top: -150px;
+	top: -155px;
 
 }
 .a1 { /*анимацтия*/
@@ -93,8 +93,8 @@ footer { /*подвал*/
 	30%{/*background-color: green;*/ position: reletive; top:450px; right:450px;}
 	100%{/*background-color: yellow;*/ position: reletive; top:350px; right: 600px; opacity: 0.0;}
 }
-.a3 { /*Кучеров с левого боку внизу*/
-	background-image: url(image17.jpg);
+/*.a3*/ { /*Кучеров с левого боку внизу*/
+	/*background-image: url(image17.jpg);
 	width: 175px;
 	height: 230px;
 	position: absolute;
@@ -103,15 +103,16 @@ footer { /*подвал*/
 	clip: rect(2px 250px 290px 0);
 	box-shadow: 5px 0 15px #2d2d2d;
 	border: 1px solid #2d2d2d;
-	border-radius: 15px;
+	border-radius: 15px;*/
 }
 div.a4{ /*Картинка по центру*/
 	position: absolute;
-	left: 300px;
+	left: 200px;
 	top: 50px;
-	background-image: url("image19.jpg");
-	width: 700px;
-	height: 420px;
+	background-image: url("image8.jpg");
+	background-size: cover ;
+	width: 800px;
+	height: 520px;
 	
 }
 div.a5 { /*Картинка лимон*/
@@ -128,12 +129,12 @@ a {
 }
 ul {
 	list-style: none;
-	margin-top: 150px;
+	margin-top: 120px;
 	padding: 14;
 	
 }
 li {
-	margin-top: 15px;
+	margin-top: 25px;
 	font: 1.3em sant-serif;
 	color: #fff;
 	transition: 0.5s;
@@ -159,12 +160,12 @@ img:hover {
 }
 .real {
 	position: absolute;
-	top: 200px;
-	left: 360px;
-	width: 400px;
+	top: 220px;
+	left: 220px;
+	width: 500px;
 	height: 100px;
 	color: #fff;
-	font: 4em Courgette;
+	font: 5.5em Yesteryear;
 	background-color: rgba(255, 255,255,0);
 	transform: rotate(-70deg);
 	transition: 1s;
@@ -179,7 +180,7 @@ img:hover {
 	width: 200px;
 	height: 50px;
 	top: 0;
-	left: 350px;
+	left: 310px;
 	font-size;1.em;
 	transform: translateY(10px);
 }
@@ -189,8 +190,8 @@ img:hover {
 	color: #000;
 	width: 200px;
 	height: 50px;
-	top: 30px;
-	left: 350px;
+	top: 11px;
+	left: 700px;
 	font-size;1.em;
 	transform: translateY(10px);
 	
@@ -201,12 +202,12 @@ img:hover {
 	color: #000;
 	width: 200px;
 	height: 50px;
-	top: 0;
-	left: 850px;
+	top: 12px;
+	left: 1000px;
 	font-size;1.em;
 	transform: translateY(10px);
 }
-.footers4 {
+/*.footers4 {
 	background-color: rgba(45,45,45,0);
 	position: absolute;
 	color: #000;
@@ -216,7 +217,78 @@ img:hover {
 	left: 850px;
 	font-size;1.em;
 	transform: translateY(10px);
-}
-.ssilka:hover {
+}*/
+.ssilka:hover  {
 	text-shadow: 1px 1px 2px #fff;
 }
+
+
+/*.podpunkt {
+	margin-left: 70px;
+	opacity: 0 ;
+	font-size: 1em;
+	position: absolute;
+	top: 280px;
+	left: -50px;
+	transition: 1s;*/
+
+.podpunkt li{
+	font-size: 1em;
+}
+
+.zaderzhka1 {
+	margin-left: 70px;
+	opacity: 0 ;
+	font-size: 1em;
+	position: absolute;
+	top: 450px;
+	left: -50px;
+	transition: 1.5s;
+}
+
+.zaderzhka2 {
+	margin-left: 70px;
+	opacity: 0 ;
+	font-size: 1em;
+	position: absolute;
+	top: 415px;
+	left: -50px;
+	transition: 1s;
+}
+
+.punkt:hover .zaderzhka1 {
+	opacity: 1 ;
+	left: 20px;
+}
+.punkt:hover .zaderzhka2 {
+	opacity: 1 ;
+	left: 20px;
+}
+.email {
+	color: #2F5ED9;
+
+}
+.email:hover {
+	text-shadow: 1px 1px 2px #2F5ED9;
+}
+
+.imagefooter {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -5;
+	left: -40;
+	background-color: #171717;
+	background-image: url(instagram_PNG10.png);
+	background-size: cover ;
+}
+
+.imagefooter1 {
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: -5;
+	left: -56;
+	background-color: #171717;
+	background-image: url(telef16.png);
+	background-size: cover ;
