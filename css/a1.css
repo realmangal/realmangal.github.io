@@ -2,6 +2,13 @@
 /* CSS Document */
 body {
 	background-color: #000;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	max-height: 1000px;
+	
+	
+	
 }
 .fon {
 	text-align: center;
@@ -162,4 +169,260 @@ a {
 .matrix:hover {
 	transform: rotate3d(1,1,1, 30deg)
 		scale3d(1.2,1.2,1.2) translate3d(20px, 20px, 20px);
+}
+
+.realtext {
+	float: left;
+	width: 40%;
+	color: #fff;
+	position: relative;
+	top: -820px;
+	font: italic 2em Arbutus Slab;
+	font-weight: 600;
+	
+}
+
+.shrift {
+	font: normal 1.5em Dancing Script;
+}
+
+.textcube {
+	position: absolute;
+	width: 300px;
+	color: #9D9D9D;
+	text-shadow: 1px 1px 2px #858585
+}
+
+.skill {
+	float: left;
+	position: absolute;
+	line-height: 40px;
+	font-family: Arbutus Slab;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 1.3em;
+	transform: translateY(-90px);
+	
+}
+
+.blockz {
+	perspective: 500px;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 500px;
+	z-index: 1;
+	top: -200px;
+	left: 300px;
+	text-shadow: none;
+	
+	
+}
+
+.cubez {
+	width: inherit;
+	height: inherit;
+	transform-style: preserve-3d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotate3d(1, 1, 0, -30deg);
+	transition: 2s;
+	
+}
+
+.hise {
+	position: absolute;
+	outline: 0px solid #fff;
+	font: normal px Arial;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	width: inherit;
+	height: inherit;
+	backface-visibility: hidden;
+	
+}
+
+.frontz {
+	transform: translateZ(75px);
+	line-height: 140px;
+	background: linear-gradient(to top left, #858585 5%, #000  );
+}
+
+.backz {
+	transform: rotateY(180deg) translateZ(75px);
+	line-height: 140px;
+	background: linear-gradient(to top right, #000, #858585);
+	
+}
+
+.rightz {
+	transform: rotateY(90deg) translateZ(75px);
+	background: linear-gradient(to bottom right, #858585, #000);
+}
+
+.leftz {
+	transform: rotateY(-90deg) translateZ(75px);
+	background: linear-gradient(to top right, #858585, #000);
+}
+
+.topz {
+	transform: rotateX(90deg) translateZ(75px);
+	background: linear-gradient(to top right, #000, #858585);
+}
+
+.bottomz {
+	transform: rotateX(-90deg) translateZ(75px);
+	line-height: 140px;
+	background: linear-gradient(to bottom right, #858585, #000);
+}
+
+ .skill:hover .cubez {
+	transform: rotate3d(0 ,1, 0, 180deg);
+}
+
+.skill1:hover .cubez {
+	transform: rotate3d(1, 0, 0, 90deg);
+}
+
+.skill2:hover .cubez {
+	transform: rotate3d(1, 0, 0, -90deg);
+}
+
+.skill3:hover .cubez {
+	transform: rotate3d(0, 1, 0, 90deg);
+}
+
+.skill4:hover .cubez {
+	transform: rotate3d(0, 1 ,0, -90deg);
+}
+
+.skill5:hover .cubez {
+	transform: rotate3d(0, 0, 0, 0deg)
+}
+
+.blockx {
+	width: 300px;
+	height: 300px;
+	perspective: 300px;
+	position: relative;
+	left: 800px;
+	top: -600px;
+}
+
+.cubex {
+	width: inherit;
+	height: inherit;
+	transform-style: preserve-3d;
+	position: absolute;
+	animation: anim 10s infinite linear;
+}
+
+.sidex {
+	width: inherit;
+	height: inherit;
+	outline: 0px solid #fff;
+	position: absolute;
+	border-radius: 30%;
+	backface-visibility: hidden;
+}
+
+.frontx {
+	transform: translateZ(150px);
+	background-image: url(stn1.jpg);
+		
+}
+
+.backx {
+	transform: rotateY(180deg) translateZ(150px);
+	background-image: url(stn2.jpg);
+}
+
+.topx {
+	transform: rotateX(90deg) translateZ(150px)
+		
+}
+
+.bottomx {
+	transform: rotateX(-90deg) translateZ(150px);
+}
+
+.leftx {
+	transform: rotateY(-90deg) translateZ(150px);
+	background-image: url(stn3.jpg);
+}
+
+.rightx {
+	transform: rotateY(90deg) translateZ(150px);
+	background-image: url(stn4.jpg);
+}
+
+@keyframes anim {
+	100% {transform: rotate3d(0, 1, 0, 360deg)}
+}
+
+.end {
+	width: 101%;
+	height: 140px;
+	background-color: #7C7B7B;
+	position: relative;
+	top: -100px;
+	left: -10px;
+	background-image: url(foot1.jpg);
+	background-size: cover;
+}
+
+.end div {
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	font-size: 1.3em;
+}
+
+.afoot2 {
+	transform: translateY(30px);
+}
+
+.afoot3 {
+	transform: translateY(60px);
+}
+
+.ifoot {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	transform: translate(-84px, -41px);
+	
+	
+}
+
+.ifoot3 {
+	background-image: url(instagram_PNG10.png);
+	background-size: cover;
+		
+}
+
+.ifoot2 {
+	background-image: url(telef16.png);
+	background-size: cover;
+	width: 40px;
+	transform: translate(-94px, -41px);
+	
+}
+
+.ifoot1 {
+	background-image: url(email-634902_1280.png);
+	background-size: cover;
+}
+
+.end a {
+	color: #4032AC;
+	font-weight: 600
+}
+.afoot {
+	transition: 0.5s;
+}
+.afoot:hover {
+	text-shadow: 1px 1px 1px #4032AC;
 }
