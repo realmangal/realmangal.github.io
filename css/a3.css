@@ -21,7 +21,7 @@ div.img1 {
 	width: 640px;
 	height: 360px;
 	left: 50%;
-	top: 95px;
+	top: 20%;
 	background-image: url(2fons.ru-23209.jpg);
 	background-size: cover;
 	
@@ -33,7 +33,7 @@ div.img2 {
 	width: 640px;
 	height: 360px;
 	left: 50%;
-	top: 95px;
+	top: 20%;
 	background-image: url(image25.png);
 	background-size: cover;
 	
