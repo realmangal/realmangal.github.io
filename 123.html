@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+<link rel="stylesheet" href="css/a3.css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="wow.min.js"></script>
+<script>
+	new WOW().init();
+	</script>
+</head>
+
+<body onload="timer()" style="background-color: #000">
+	<p>Мы занимаемся деятельностью "кейтеринг" уже</p>
+	<p id="elem" style="color: #fff">0</p>
+	<span> Дней!</span>
+	<p class="textinfo">За это время мы многому научились, способности организовать качественный отдых и подобрать обученый персонал дело нашей идеи, которую мы каждый раз воплощаем в реальность, так же как и ваши предпочтения в сфере выездных мероприятий. Появилась возможность качественно провести отдых? свяжитесь с нами по тел:    или воспользуйтесь конструктором составления плана мероприятия, где подробно указаны все наши возможности и цена на услуги.<br/><br/>Мы сделаем вашу жизнь ярче!</p>
+	<div class="img1"></div>
+	<div class="img2 wow fadeIn" data-wow-duration="2s"></div>
+	<script>
+		
+		function oneDate() {
+			var date = new Date();
+			var date1 = new Date(2017, 05, 17, 0, 0, 0);
+			var now = Math.floor((date.getTime() - date1.getTime())/(1000 * 60 * 60 * 24));
+			return now;
+			}
+		
+		function timer() {
+			var elem = document.getElementById('elem');
+			elem.innerHTML = parseInt(elem.innerHTML)+1;
+			if(elem.innerHTML < oneDate())
+			{window.setTimeout(timer, 10);}
+		}
+		
+		
+		
+		
+		
+		
+	</script>
+</body>
+</html>

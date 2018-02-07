@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, span {
+	color: #fff;
+	font: italic 400 1.5em A;
+}
+
+#elem {
+	display: inline;
+}
+
+.textinfo {
+	width: 40%;
+	text-align: justify;
+	line-height: 35px;
+}
+
+div.img1 {
+	position: absolute;
+	width: 640px;
+	height: 360px;
+	left: 50%;
+	top: 55px;
+	background-image: url(2fons.ru-23209.jpg);
+	background-size: cover;
+	
+	
+}
+
+div.img2 {
+	position: absolute;
+	width: 640px;
+	height: 360px;
+	left: 50%;
+	top: 55px;
+	background-image: url(image25.png);
+	background-size: cover;
+	
+	
+}
